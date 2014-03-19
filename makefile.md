@@ -36,8 +36,8 @@ Makefile规则
 
 在讲述这个Makefile之前，还是让我们先来粗略地看一看Makefile的规则。
 
-> target ... : prerequisites ... 
-> command
+`target ... : prerequisites ... `
+`command`
 
 
 
