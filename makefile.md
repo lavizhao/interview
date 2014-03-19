@@ -75,7 +75,7 @@ Makefile规则
 		rm edit main.o kbd.o command.o display.o /
 			insert.o search.o files.o utils.o	
 
-
+在定义好依赖关系后，后续的那一行定义了如何生成目标文件的操作系统命令，**一定要以一个Tab键作为开头**。记住，make并不管命令是怎么工作的，他只管执行所定义的命令。make会比较targets文件和prerequisites文件的修改日期，如果prerequisites文件的日期要比targets文件的日期要新，或者target不存在的话，那么，make就会执行后续定义的命令。
 
 
 
